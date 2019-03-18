@@ -98,7 +98,12 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WY",
-        href: "http://zhengwuyang.com"
+        title: "寒小阳",
+        href: "https://blog.csdn.net/han_xiaoyang"
+       
+    },
+    {
+        title:"hancks",
+        href:"http://www.hankcs.com/nlp/"
     }
 ]
