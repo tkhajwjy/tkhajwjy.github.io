@@ -1,4 +1,18 @@
+---
 
+layout:     post
+title:      Spark笔记(1)
+subtitle:   Spark_core
+date:       2018-11-1
+author:     WJY
+header-img: img/01.jpg
+catalog: true
+tags:
+
+- spark
+
+
+---
 ## Spark 核心概念与操作
 Spark可以分为1个**driver(笔记本电脑或者集群网关机器上)**和若干个**executor(在各个节点上)**，通过**`SparkContext`(简称`sc`)**连接`Spark集群`、`创建RDD`、`累加器（accumlator）`、`广播变量（broadcast variables）`，简单可以认为SparkContext是Spark程序的根本。
 
